@@ -1,9 +1,13 @@
 #include <stdio.h>
 
 int main(){
-int x = 100;
+int ten = 10;
+int two = 2;
 
-printf("десятичное = %d; восьмеричное = %o; шестнадцатеричное = %x\n", x , x, x);
-printf("десятичное = %d; восьмеричное = %#o; шестнадцатеричное = %#x\n", x , x, x);
+printf("Выполняется правильно:");
+printf("%d минус %d рaBно %d\n",ten, 2, ten - two);
+//printf("выполняется неправильно");");
+//printf("%d minus %d pavno %d\n", ten);
+
     return 0;
 }
