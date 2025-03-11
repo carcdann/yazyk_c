@@ -10,7 +10,7 @@ int main()
     scanf("%f", &salary);
 
     printf("\n\t$%f в месяц $%f в год", salary, salary * 12.0);
-     printf("\rOro!\n");
+    printf("\rOro!\n");
 
     return 0;
 }
